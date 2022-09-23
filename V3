@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Syntax", "Ocean")
+
+-- Script right here
+local Script = Window:NewTab("Script")
+local ScriptSection = Script:NewSection("Script")
+
+
+ScriptSection:NewButton("Syntax", "Has cool R6 Animations", function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomDevAlt/Syntax/main/V3"))();
+end)
